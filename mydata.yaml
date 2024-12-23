@@ -1,0 +1,19 @@
+path: D:/ultralytics-8.1.0/datasets  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: valid/images  # val images (relative to 'path') 128 images
+test: test/images  # test images (optional)
+nc : 12  #number of classes
+
+names:
+  0: cardboard
+  1: bags
+  2: bottles
+  3: milk-boxs
+  4: cigarette-cases
+  5: meal-boxs
+  6: cardboard-box
+  7: cups
+  8: cans
+  9: cover
+  10: clothe
+  11: form
